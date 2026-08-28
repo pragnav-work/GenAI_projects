@@ -1,45 +1,77 @@
-# Mini RAG Chatbot
+# GenAI Projects
 
-A simple Retrieval-Augmented Generation (RAG) chatbot that answers questions using information retrieved from a PDF document.
+A collection of hands-on Generative AI and information retrieval projects implemented in Python.
 
-## Project Objective
+The projects focus on understanding and implementing core components used in modern AI systems, including Retrieval-Augmented Generation (RAG), text embeddings, vector databases, semantic search, and Large Language Models.
 
-The goal of this project is to implement a complete RAG pipeline:
+## Projects
 
-PDF → Text Extraction → Text Chunking → Embeddings → FAISS → Semantic Search → Context Retrieval → Gemini LLM → Answer
+### 1. Mini RAG Chatbot
 
-## Technologies Used
+A Retrieval-Augmented Generation chatbot that retrieves relevant information from a PDF document and uses Google Gemini to generate answers based on the retrieved context.
+
+**Key concepts:**
+- PDF text extraction
+- Text chunking
+- Text embeddings
+- FAISS vector search
+- Semantic retrieval
+- Context-based question answering
+- Gemini LLM integration
+
+[View Mini RAG Chatbot →](./mini-rag-chatbot/)
+
+---
+
+### 2. Mini Semantic Search Engine
+
+A lightweight semantic search engine implemented using Sentence Transformers and FAISS.
+
+The system converts a domain-specific knowledge base into embeddings and retrieves the top three semantically similar sentences for a user query.
+
+**Key concepts:**
+- Sentence embeddings
+- 384-dimensional vectors
+- Vector normalization
+- FAISS `IndexFlatL2`
+- Similarity search
+- Top-K retrieval
+- Interactive CLI
+
+[View Mini Semantic Search →](./mini-semantic-search/)
+
+---
+
+## Technologies
 
 - Python
-- Jupyter Lab
-- PyPDF
-- LangChain Text Splitter
+- Jupyter Notebook
+- NumPy
 - Sentence Transformers
 - FAISS
+- LangChain
+- PyPDF
 - Google Gemini API
 
-## RAG Pipeline
-
-1. Extract text from the PDF using PyPDF.
-2. Split the extracted text into smaller chunks using `RecursiveCharacterTextSplitter`.
-3. Convert the chunks into numerical embeddings using Sentence Transformers.
-4. Store the embeddings in a FAISS vector index.
-5. Convert the user's question into an embedding.
-6. Retrieve the most semantically similar chunks using FAISS.
-7. Pass the retrieved context and question to Gemini.
-8. Generate the final answer using the retrieved context.
-
-## Project Structure
+## Repository Structure
 
 ```text
-mini-rag-chatbot/
+GenAI_projects/
 │
-├── Mini_RAG_Chatbot.ipynb
-├── requirements.txt
-├── sample_data/
-│   └── sample.pdf
-└── screenshots/
-│   └── Output1.png
-    └── Output2.png
-
-
+├── mini-rag-chatbot/
+│   ├── Mini_RAG_Chatbot.ipynb
+│   ├── README.md
+│   ├── requirements.txt
+│   ├── sample_data/
+│   │   └── sample.pdf
+│   └── screenshots/
+│       ├── Output1.png
+│       └── Output2.png
+│
+├── mini-semantic-search/
+│   ├── Mini_Semantic_Search.ipynb
+│   ├── README.md
+│   ├── requirements.txt
+│   └── theory_answers.md
+│
+└── README.md
