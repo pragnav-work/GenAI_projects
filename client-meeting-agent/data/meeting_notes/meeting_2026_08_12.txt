@@ -1,0 +1,28 @@
+Meeting Date: 2026-08-12
+
+Client: Acme Corp
+
+Attendees:
+- Sarah Mitchell — VP of Operations, Acme Corp
+- Alex Johnson — Account Manager
+- David Lee — Solutions Architect
+
+Discussion:
+The dashboard prototype was demonstrated and received positive feedback.
+Sarah confirmed that the prototype meets the initial dashboard requirements.
+
+API integration was discussed in more detail. The technical team identified
+additional integration work that may affect the timeline.
+
+Pricing for the next phase was also discussed. Acme requested a revised pricing
+proposal.
+
+Action Items:
+- Alex: Send revised pricing proposal.
+- David: Confirm API integration timeline.
+- Sarah: Provide final API documentation.
+
+Status:
+Dashboard: Prototype approved.
+API Integration: In progress.
+Pricing: Pending.

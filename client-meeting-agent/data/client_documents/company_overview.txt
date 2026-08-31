@@ -1,0 +1,13 @@
+Acme Corp is an e-commerce technology company focused on helping online retailers
+manage orders, customers, and operational workflows.
+
+The company is currently investing in improving its analytics capabilities.
+Leadership wants better visibility into customer behavior, operational performance,
+and business KPIs.
+
+Acme Corp is evaluating improvements to its existing analytics platform and is
+particularly interested in faster reporting, better dashboards, and improved
+integration with internal systems.
+
+The main business stakeholders involved in the analytics initiative are the
+Operations and Technology teams.

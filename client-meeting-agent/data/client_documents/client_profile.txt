@@ -1,0 +1,29 @@
+Client: Acme Corp
+
+Industry: E-commerce Technology
+
+Headquarters: Austin, Texas
+
+Company Size: Approximately 500 employees
+
+Primary Contact: Sarah Mitchell
+
+Role: VP of Operations
+
+Relationship: Existing client
+
+Account Status: Active
+
+Key Business Areas:
+- E-commerce operations
+- Customer analytics
+- Order management
+- Business intelligence
+
+Client Preferences:
+- Prefers concise presentations
+- Values data-driven recommendations
+- Interested in measurable business outcomes
+
+Current Relationship:
+Acme Corp has been working with our company on an analytics modernization initiative.

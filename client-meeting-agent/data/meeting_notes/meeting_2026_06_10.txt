@@ -1,0 +1,20 @@
+Meeting Date: 2026-06-10
+
+Client: Acme Corp
+
+Attendees:
+- Sarah Mitchell — VP of Operations, Acme Corp
+- Alex Johnson — Account Manager
+
+Discussion:
+The teams discussed Acme Corp's need to modernize its analytics platform.
+Acme identified slow reporting and limited KPI visibility as major issues.
+
+Sarah requested a proposal covering dashboard improvements and customer analytics.
+
+Action Items:
+- Alex: Prepare initial analytics modernization proposal.
+- Sarah: Share current reporting requirements.
+
+Status:
+Initial requirements gathering.
